@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-// Permite cargar configurciones para la aplicacion completa para pooder declararlo en cualquier parte.
+// Permite cargar configurciones para la aplicacion completa para poder declararlo en cualquier parte.
 import { AppComponent } from './app.component';
 
 @NgModule({

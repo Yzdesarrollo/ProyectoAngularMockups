@@ -6,14 +6,28 @@ import {Component} from '@angular/core';
 // 3. El selector para indicarle la etiqueta que se va generar la directiva
     selector: 'mi-componente',
     template: `
-        <h1>Hola Mundo</h1>
-        <p>Este es mi primer componente</p>
-`
+        <h1>{{titulo}}</h1>
+        <h2>{{ano}}</h2>
+        <p>{{comentario}}</p>
+    `
 })
 export class MiComponente{
 
+// Puedo definir mis propias propiedades
+    public titulo: string;
+    public comentario: string;
+    public ano: number;
+
     constructor(){
+        // Le puedo dar un valor a las propiedades que he creado
+        this.titulo = "Esta es una propiedad creada  llamada TITULO";
+        this.comentario = "Esta es una propiedad creada por mi llamada COMENTARIO"
+        this.ano = 2020;
+
         console.log("Componente mi-componente cargado !!");
+        alert(this.titulo);
     }
 }
+
+// Para que funcione debo ir a app.module para que funcione e importar la clase MiComponente
 

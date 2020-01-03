@@ -2,7 +2,7 @@
 //app.component.ts
 //Es una clase de javascript 
 import { Component } from '@angular/core';
-// Esto es un decorador contiene las propiedades que va tener el componente
+// Esto es un decorador contiene las propiedades que va tener el component
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

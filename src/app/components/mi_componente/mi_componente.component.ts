@@ -5,11 +5,8 @@ import {Component} from '@angular/core';
 @Component({
 // 3. El selector para indicarle la etiqueta que se va generar la directiva
     selector: 'mi-componente',
-    template: `
-        <h1>{{titulo}}</h1>
-        <h2>{{ano}}</h2>
-        <p>{{comentario}}</p>
-    `
+    templateUrl: './mi_componente.component.html'
+    //Cambiamos template por templateUrl y le indicamos la ruta donde pegamos el codigo.
 })
 export class MiComponente{
 
@@ -25,7 +22,7 @@ export class MiComponente{
         this.ano = 2020;
 
         console.log("Componente mi-componente cargado !!");
-        alert(this.titulo);
+        //alert(this.titulo);
     }
 }
 

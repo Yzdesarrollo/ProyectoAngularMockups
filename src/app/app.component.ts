@@ -9,5 +9,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
-  title = 'ProyectoAngularMockups';
+  // Le podemos indicar los modificadores public,private,protect etc..
+ public title = 'SOUNDCLOUDIFY';
 }

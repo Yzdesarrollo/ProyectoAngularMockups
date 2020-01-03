@@ -5,8 +5,9 @@ import { Component } from '@angular/core';
 // Esto es un decorador contiene las propiedades que va tener el component 
 @Component({
   //tiene un SELECTOR la etiqueta app-root que se muestra en el index.html son parametros que le pasamos que le pasamos a una clase para configurar el componente.
+
   selector: 'app-root',
-  //TEMPLATEurl indicarle que vista y donde esta esa vista asociada al componente
+  //TEMPLATEurl indicarle que vista y donde esta esa vista asociada al componente.
   templateUrl: './app.component.html',
   //STYLEUrls es la propiedad en la cual le indicamos hojas de estilos para este componente
   styleUrls: ['./app.component.sass']
